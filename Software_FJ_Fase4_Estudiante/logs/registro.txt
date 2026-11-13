@@ -1,0 +1,312 @@
+2026-11-11 04:35:54,889 - INFO - Cliente agregado: C01
+2026-11-11 04:35:54,889 - INFO - Cliente agregado: C02
+2026-11-11 04:35:54,889 - INFO - Servicio agregado: S01
+2026-11-11 04:35:54,889 - INFO - Servicio agregado: S02
+2026-11-11 04:35:54,889 - INFO - Servicio agregado: S03
+2026-11-11 04:35:54,889 - INFO - Reserva creada: R01
+2026-11-11 04:35:54,889 - INFO - Reserva R01 confirmada
+2026-11-11 04:35:54,889 - INFO - Reserva creada: R02
+2026-11-11 04:35:54,889 - INFO - Reserva R02 confirmada
+2026-11-11 04:35:54,889 - INFO - Reserva creada: R03
+2026-11-11 04:35:54,889 - INFO - Reserva R03 confirmada
+2026-11-11 04:35:54,889 - INFO - Reserva creada: R04
+2026-11-11 04:35:54,889 - ERROR - No se pudo confirmar la reserva R04
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4_Estudiante/software_fj/clases.py", line 160, in confirmar
+    self.total = self.servicio.calcular_costo(
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.horas,
+        ^^^^^^^^^^^
+    ...<2 lines>...
+        descuento=descuento
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/data/Software_FJ_Fase4_Estudiante/software_fj/clases.py", line 86, in calcular_costo
+    self.validar(horas, **datos)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4_Estudiante/software_fj/clases.py", line 83, in validar
+    raise DatoIncorrecto("La cantidad de personas no es válida")
+software_fj.exceptions.DatoIncorrecto: La cantidad de personas no es válida
+2026-11-11 04:35:54,890 - INFO - Terminó el proceso de reserva R04
+2026-11-11 04:35:54,890 - INFO - Reserva creada: R05
+2026-11-11 04:35:54,890 - ERROR - No se pudo confirmar la reserva R05
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4_Estudiante/software_fj/clases.py", line 160, in confirmar
+    self.total = self.servicio.calcular_costo(
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.horas,
+        ^^^^^^^^^^^
+    ...<2 lines>...
+        descuento=descuento
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/data/Software_FJ_Fase4_Estudiante/software_fj/clases.py", line 86, in calcular_costo
+    self.validar(horas, **datos)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4_Estudiante/software_fj/clases.py", line 78, in validar
+    raise ServicioNoDisponible("La sala no está disponible")
+software_fj.exceptions.ServicioNoDisponible: La sala no está disponible
+2026-11-11 04:35:54,890 - INFO - Terminó el proceso de reserva R05
+2026-11-11 04:35:54,890 - INFO - Reserva R01 cancelada
+2026-11-11 21:15:55,528 - INFO - Cliente agregado: C01
+2026-11-11 21:15:55,529 - INFO - Cliente agregado: C02
+2026-11-11 21:15:55,530 - INFO - Servicio agregado: S01
+2026-11-11 21:15:55,530 - INFO - Servicio agregado: S02
+2026-11-11 21:15:55,530 - INFO - Servicio agregado: S03
+2026-11-11 21:15:55,531 - INFO - Reserva creada: R01
+2026-11-11 21:15:55,531 - INFO - Reserva R01 confirmada
+2026-11-11 21:15:55,532 - INFO - Reserva creada: R02
+2026-11-11 21:15:55,532 - INFO - Reserva R02 confirmada
+2026-11-11 21:15:55,532 - INFO - Reserva creada: R03
+2026-11-11 21:15:55,532 - INFO - Reserva R03 confirmada
+2026-11-11 21:15:55,532 - INFO - Reserva creada: R04
+2026-11-11 21:15:55,533 - ERROR - No se pudo confirmar la reserva R04
+Traceback (most recent call last):
+  File "c:\Users\USUARIO\Downloads\Trabajo_Fase4_Programacion\Software_FJ_Fase4_Estudiante\software_fj\clases.py", line 160, in confirmar
+    self.total = self.servicio.calcular_costo(
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.horas,
+        ^^^^^^^^^^^
+    ...<2 lines>...
+        descuento=descuento
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "c:\Users\USUARIO\Downloads\Trabajo_Fase4_Programacion\Software_FJ_Fase4_Estudiante\software_fj\clases.py", line 86, in calcular_costo
+    self.validar(horas, **datos)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "c:\Users\USUARIO\Downloads\Trabajo_Fase4_Programacion\Software_FJ_Fase4_Estudiante\software_fj\clases.py", line 83, in validar
+    raise DatoIncorrecto("La cantidad de personas no es válida")
+software_fj.exceptions.DatoIncorrecto: La cantidad de personas no es válida
+2026-11-11 21:15:55,576 - INFO - Terminó el proceso de reserva R04
+2026-11-11 21:15:55,576 - INFO - Reserva creada: R05
+2026-11-11 21:15:55,576 - ERROR - No se pudo confirmar la reserva R05
+Traceback (most recent call last):
+  File "c:\Users\USUARIO\Downloads\Trabajo_Fase4_Programacion\Software_FJ_Fase4_Estudiante\software_fj\clases.py", line 160, in confirmar
+    self.total = self.servicio.calcular_costo(
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.horas,
+        ^^^^^^^^^^^
+    ...<2 lines>...
+        descuento=descuento
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "c:\Users\USUARIO\Downloads\Trabajo_Fase4_Programacion\Software_FJ_Fase4_Estudiante\software_fj\clases.py", line 86, in calcular_costo
+    self.validar(horas, **datos)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "c:\Users\USUARIO\Downloads\Trabajo_Fase4_Programacion\Software_FJ_Fase4_Estudiante\software_fj\clases.py", line 78, in validar
+    raise ServicioNoDisponible("La sala no está disponible")
+software_fj.exceptions.ServicioNoDisponible: La sala no está disponible
+2026-11-11 21:15:55,591 - INFO - Terminó el proceso de reserva R05
+2026-11-11 21:15:55,591 - INFO - Reserva R01 cancelada
+2026-11-11 21:16:15,441 - INFO - Cliente agregado: C01
+2026-11-11 21:16:15,442 - INFO - Cliente agregado: C02
+2026-11-11 21:16:15,443 - INFO - Servicio agregado: S01
+2026-11-11 21:16:15,443 - INFO - Servicio agregado: S02
+2026-11-11 21:16:15,443 - INFO - Servicio agregado: S03
+2026-11-11 21:16:15,444 - INFO - Reserva creada: R01
+2026-11-11 21:16:15,444 - INFO - Reserva R01 confirmada
+2026-11-11 21:16:15,445 - INFO - Reserva creada: R02
+2026-11-11 21:16:15,445 - INFO - Reserva R02 confirmada
+2026-11-11 21:16:15,465 - INFO - Reserva creada: R03
+2026-11-11 21:16:15,465 - INFO - Reserva R03 confirmada
+2026-11-11 21:16:15,466 - INFO - Reserva creada: R04
+2026-11-11 21:16:15,467 - ERROR - No se pudo confirmar la reserva R04
+Traceback (most recent call last):
+  File "c:\Users\USUARIO\Downloads\Trabajo_Fase4_Programacion\Software_FJ_Fase4_Estudiante\software_fj\clases.py", line 160, in confirmar
+    self.total = self.servicio.calcular_costo(
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.horas,
+        ^^^^^^^^^^^
+    ...<2 lines>...
+        descuento=descuento
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "c:\Users\USUARIO\Downloads\Trabajo_Fase4_Programacion\Software_FJ_Fase4_Estudiante\software_fj\clases.py", line 86, in calcular_costo
+    self.validar(horas, **datos)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "c:\Users\USUARIO\Downloads\Trabajo_Fase4_Programacion\Software_FJ_Fase4_Estudiante\software_fj\clases.py", line 83, in validar
+    raise DatoIncorrecto("La cantidad de personas no es válida")
+software_fj.exceptions.DatoIncorrecto: La cantidad de personas no es válida
+2026-11-11 21:16:15,473 - INFO - Terminó el proceso de reserva R04
+2026-11-11 21:16:15,473 - INFO - Reserva creada: R05
+2026-11-11 21:16:15,485 - ERROR - No se pudo confirmar la reserva R05
+Traceback (most recent call last):
+  File "c:\Users\USUARIO\Downloads\Trabajo_Fase4_Programacion\Software_FJ_Fase4_Estudiante\software_fj\clases.py", line 160, in confirmar
+    self.total = self.servicio.calcular_costo(
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.horas,
+        ^^^^^^^^^^^
+    ...<2 lines>...
+        descuento=descuento
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "c:\Users\USUARIO\Downloads\Trabajo_Fase4_Programacion\Software_FJ_Fase4_Estudiante\software_fj\clases.py", line 86, in calcular_costo
+    self.validar(horas, **datos)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "c:\Users\USUARIO\Downloads\Trabajo_Fase4_Programacion\Software_FJ_Fase4_Estudiante\software_fj\clases.py", line 78, in validar
+    raise ServicioNoDisponible("La sala no está disponible")
+software_fj.exceptions.ServicioNoDisponible: La sala no está disponible
+2026-11-11 21:16:15,486 - INFO - Terminó el proceso de reserva R05
+2026-11-11 21:16:15,486 - INFO - Reserva R01 cancelada
+2026-11-11 21:16:23,117 - INFO - Cliente agregado: C01
+2026-11-11 21:16:23,117 - INFO - Cliente agregado: C02
+2026-11-11 21:16:23,118 - INFO - Servicio agregado: S01
+2026-11-11 21:16:23,118 - INFO - Servicio agregado: S02
+2026-11-11 21:16:23,118 - INFO - Servicio agregado: S03
+2026-11-11 21:16:23,119 - INFO - Reserva creada: R01
+2026-11-11 21:16:23,119 - INFO - Reserva R01 confirmada
+2026-11-11 21:16:23,119 - INFO - Reserva creada: R02
+2026-11-11 21:16:23,119 - INFO - Reserva R02 confirmada
+2026-11-11 21:16:23,120 - INFO - Reserva creada: R03
+2026-11-11 21:16:23,120 - INFO - Reserva R03 confirmada
+2026-11-11 21:16:23,120 - INFO - Reserva creada: R04
+2026-11-11 21:16:23,121 - ERROR - No se pudo confirmar la reserva R04
+Traceback (most recent call last):
+  File "c:\Users\USUARIO\Downloads\Trabajo_Fase4_Programacion\Software_FJ_Fase4_Estudiante\software_fj\clases.py", line 160, in confirmar
+    self.total = self.servicio.calcular_costo(
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.horas,
+        ^^^^^^^^^^^
+    ...<2 lines>...
+        descuento=descuento
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "c:\Users\USUARIO\Downloads\Trabajo_Fase4_Programacion\Software_FJ_Fase4_Estudiante\software_fj\clases.py", line 86, in calcular_costo
+    self.validar(horas, **datos)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "c:\Users\USUARIO\Downloads\Trabajo_Fase4_Programacion\Software_FJ_Fase4_Estudiante\software_fj\clases.py", line 83, in validar
+    raise DatoIncorrecto("La cantidad de personas no es válida")
+software_fj.exceptions.DatoIncorrecto: La cantidad de personas no es válida
+2026-11-11 21:16:23,126 - INFO - Terminó el proceso de reserva R04
+2026-11-11 21:16:23,126 - INFO - Reserva creada: R05
+2026-11-11 21:16:23,126 - ERROR - No se pudo confirmar la reserva R05
+Traceback (most recent call last):
+  File "c:\Users\USUARIO\Downloads\Trabajo_Fase4_Programacion\Software_FJ_Fase4_Estudiante\software_fj\clases.py", line 160, in confirmar
+    self.total = self.servicio.calcular_costo(
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.horas,
+        ^^^^^^^^^^^
+    ...<2 lines>...
+        descuento=descuento
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "c:\Users\USUARIO\Downloads\Trabajo_Fase4_Programacion\Software_FJ_Fase4_Estudiante\software_fj\clases.py", line 86, in calcular_costo
+    self.validar(horas, **datos)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "c:\Users\USUARIO\Downloads\Trabajo_Fase4_Programacion\Software_FJ_Fase4_Estudiante\software_fj\clases.py", line 78, in validar
+    raise ServicioNoDisponible("La sala no está disponible")
+software_fj.exceptions.ServicioNoDisponible: La sala no está disponible
+2026-11-11 21:16:23,131 - INFO - Terminó el proceso de reserva R05
+2026-11-11 21:16:23,131 - INFO - Reserva R01 cancelada
+2026-11-11 23:35:16,647 - INFO - Cliente agregado: C01
+2026-11-11 23:35:16,861 - INFO - Cliente agregado: C02
+2026-11-11 23:35:16,912 - INFO - Servicio agregado: S01
+2026-11-11 23:35:16,912 - INFO - Servicio agregado: S02
+2026-11-11 23:35:16,912 - INFO - Servicio agregado: S03
+2026-11-11 23:35:16,913 - INFO - Reserva creada: R01
+2026-11-11 23:35:16,913 - INFO - Reserva R01 confirmada
+2026-11-11 23:35:16,913 - INFO - Reserva creada: R02
+2026-11-11 23:35:16,913 - INFO - Reserva R02 confirmada
+2026-11-11 23:35:16,914 - INFO - Reserva creada: R03
+2026-11-11 23:35:16,914 - INFO - Reserva R03 confirmada
+2026-11-11 23:35:16,914 - INFO - Reserva creada: R04
+2026-11-11 23:35:16,914 - ERROR - No se pudo confirmar la reserva R04
+Traceback (most recent call last):
+  File "c:\Users\USUARIO\Downloads\Trabajo_Fase4_Programacion\Software_FJ_Fase4_Estudiante\software_fj\clases.py", line 160, in confirmar
+    self.total = self.servicio.calcular_costo(
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.horas,
+        ^^^^^^^^^^^
+    ...<2 lines>...
+        descuento=descuento
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "c:\Users\USUARIO\Downloads\Trabajo_Fase4_Programacion\Software_FJ_Fase4_Estudiante\software_fj\clases.py", line 86, in calcular_costo
+    self.validar(horas, **datos)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "c:\Users\USUARIO\Downloads\Trabajo_Fase4_Programacion\Software_FJ_Fase4_Estudiante\software_fj\clases.py", line 83, in validar
+    raise DatoIncorrecto("La cantidad de personas no es válida")
+software_fj.exceptions.DatoIncorrecto: La cantidad de personas no es válida
+2026-11-11 23:35:17,003 - INFO - Terminó el proceso de reserva R04
+2026-11-11 23:35:17,003 - INFO - Reserva creada: R05
+2026-11-11 23:35:17,004 - ERROR - No se pudo confirmar la reserva R05
+Traceback (most recent call last):
+  File "c:\Users\USUARIO\Downloads\Trabajo_Fase4_Programacion\Software_FJ_Fase4_Estudiante\software_fj\clases.py", line 160, in confirmar
+    self.total = self.servicio.calcular_costo(
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.horas,
+        ^^^^^^^^^^^
+    ...<2 lines>...
+        descuento=descuento
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "c:\Users\USUARIO\Downloads\Trabajo_Fase4_Programacion\Software_FJ_Fase4_Estudiante\software_fj\clases.py", line 86, in calcular_costo
+    self.validar(horas, **datos)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "c:\Users\USUARIO\Downloads\Trabajo_Fase4_Programacion\Software_FJ_Fase4_Estudiante\software_fj\clases.py", line 78, in validar
+    raise ServicioNoDisponible("La sala no está disponible")
+software_fj.exceptions.ServicioNoDisponible: La sala no está disponible
+2026-11-11 23:35:17,008 - INFO - Terminó el proceso de reserva R05
+2026-11-11 23:35:17,008 - INFO - Reserva R01 cancelada
+2026-11-12 22:25:38,996 - INFO - Cliente agregado: C01
+2026-11-12 22:25:38,998 - INFO - Cliente agregado: C02
+2026-11-12 22:25:39,001 - INFO - Servicio agregado: S01
+2026-11-12 22:25:39,001 - INFO - Servicio agregado: S02
+2026-11-12 22:25:39,001 - INFO - Servicio agregado: S03
+2026-11-12 22:25:39,007 - INFO - Reserva creada: R01
+2026-11-12 22:25:39,007 - INFO - Reserva R01 confirmada
+2026-11-12 22:25:39,008 - INFO - Reserva creada: R02
+2026-11-12 22:25:39,008 - INFO - Reserva R02 confirmada
+2026-11-12 22:25:39,009 - INFO - Reserva creada: R03
+2026-11-12 22:25:39,009 - INFO - Reserva R03 confirmada
+2026-11-12 22:25:39,010 - INFO - Reserva creada: R04
+2026-11-12 22:25:39,011 - ERROR - No se pudo confirmar la reserva R04
+Traceback (most recent call last):
+  File "c:\Users\USUARIO\Downloads\Trabajo_Fase4_Programacion\Software_FJ_Fase4_Estudiante\software_fj\clases.py", line 160, in confirmar
+    self.total = self.servicio.calcular_costo(
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.horas,
+        ^^^^^^^^^^^
+    ...<2 lines>...
+        descuento=descuento
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "c:\Users\USUARIO\Downloads\Trabajo_Fase4_Programacion\Software_FJ_Fase4_Estudiante\software_fj\clases.py", line 86, in calcular_costo
+    self.validar(horas, **datos)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "c:\Users\USUARIO\Downloads\Trabajo_Fase4_Programacion\Software_FJ_Fase4_Estudiante\software_fj\clases.py", line 83, in validar
+    raise DatoIncorrecto("La cantidad de personas no es válida")
+software_fj.exceptions.DatoIncorrecto: La cantidad de personas no es válida
+2026-11-12 22:25:39,113 - INFO - Terminó el proceso de reserva R04
+2026-11-12 22:25:39,113 - INFO - Reserva creada: R05
+2026-11-12 22:25:39,114 - ERROR - No se pudo confirmar la reserva R05
+Traceback (most recent call last):
+  File "c:\Users\USUARIO\Downloads\Trabajo_Fase4_Programacion\Software_FJ_Fase4_Estudiante\software_fj\clases.py", line 160, in confirmar
+    self.total = self.servicio.calcular_costo(
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.horas,
+        ^^^^^^^^^^^
+    ...<2 lines>...
+        descuento=descuento
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "c:\Users\USUARIO\Downloads\Trabajo_Fase4_Programacion\Software_FJ_Fase4_Estudiante\software_fj\clases.py", line 86, in calcular_costo
+    self.validar(horas, **datos)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "c:\Users\USUARIO\Downloads\Trabajo_Fase4_Programacion\Software_FJ_Fase4_Estudiante\software_fj\clases.py", line 78, in validar
+    raise ServicioNoDisponible("La sala no está disponible")
+software_fj.exceptions.ServicioNoDisponible: La sala no está disponible
+2026-11-12 22:25:39,126 - INFO - Terminó el proceso de reserva R05
+2026-11-12 22:25:39,126 - INFO - Reserva R01 cancelada
